@@ -33,7 +33,7 @@ Review(this.pathImage,this.name,this.details);
         userName,userInfo],
         );
     final ico= Container(margin: const EdgeInsets.only(left: 80.0,top: 15.0),
-    child: const Icon(Icons.play_circle_outline,color: Colors.deepOrangeAccent,size: 40.0,));
+    child: const Icon(Icons.play_circle_outline,color: Colors.blue,size: 40.0,));
 
     return Card(child: Row(children: <Widget>[photo,userDetails,ico],),);
     return Row(
